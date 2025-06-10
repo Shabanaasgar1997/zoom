@@ -1,0 +1,34 @@
+.navbar_nav
+{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.navbar_nav li{
+    padding: 1em;
+}
+
+.navbar_nav li a{
+    text-decoration: none;
+    font-family: poppins,sans-serif;
+    font-size: 1em;
+}
+
+.venu
+{
+    font-size: 45px;
+}
+
+
+/* .flex_Container
+{
+    display: flex;
+}
+
+.flex_item{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    margin: 1px;
+} */

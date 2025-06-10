@@ -1,0 +1,22 @@
+.nav
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav ul{
+    padding: 1em;
+
+}
+
+.nav li a{
+    text-decoration: none;
+    background-color: yellow;
+    padding: 1em;
+}
+
+.venu
+{
+    font-size: 45px;
+}

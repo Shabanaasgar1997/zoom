@@ -1,0 +1,293 @@
+# Architecture of the project
+
+npx create-react-app appname
+npm create-react-app appname
+
+reactjs basic folder ---- github
+
+happy hacking!
+
+npm start --- reactjs project
+
+node_modules ---- > libraries
+
+public ----- index.html
+
+src ---- source
+
+components
+css
+assets
+pages
+
+# SPA
+
+SINGLE PAGE APPLICATION
+
+HOW TO CREATE THE COMPONENTS
+
+step:1 create a file / file name should always starts with capital letters
+
+step:2 choose the right component
+
+step:3 exporting
+
+step:4 usage/rendering of the component
+
+step:5 import the component if we want to use it
+
+<Componentname />
+
+2 types
+
+1. functional component
+2. class component
+
+# class components
+
+import React,{Component} from 'react'
+
+class Componentname extends Component{
+render(){
+return()
+}
+}
+
+# functional component
+
+import React from 'react'
+
+function ComponentName(){
+return(<div></div>)
+}
+
+export componentname;
+
+fragmentation
+
+# Styling
+
+3 types of stylesheets
+
+1. external
+2. internal
+3. inline
+
+5 ways
+
+1. external css
+2. inline ---- exclude
+3. js object
+4. modules.css
+
+5. styled-components
+6. sass
+
+<tag style="propertyname:value;propertyname:value;propertyname:value;propertyname:value;propertyname:value;"></tag>
+background-image:url();
+
+backgroundImage
+
+filename.module.css
+
+live sass compiler
+
+# react-router-dom
+
+redirecting the user
+
+https://reactrouter.com/home
+
+1. BrowserRouter
+2. Routes
+3. Route
+4. Link
+5. NavLink
+
+useParams()
+useNavigate() hooks
+
+chakraui : https://chakra-ui.com/
+semanticui : https://semantic-ui.com/
+ant design : https://ant.design/
+tailwindcss
+mui : https://mui.com/
+
+# props/states
+
+property to pass the data from one component to the another component
+
+app === name: VIRAT KOHLI
+
+communication between the two components
+
+the immutable/ we cannot edit/modify the props value
+
+# props syntax
+
+<tag prop1="" prop2="" prop3=""></tag>
+
+2 ways
+
+1. props keyword
+2. object format
+
+# states no more in use
+
+class component
+complexity of the state elements
+
+this.state.key
+
+state={
+keyname:"value",
+keyname2:"value",
+keyname2:"value",
+keyname2:"value",
+keyname2:"value",
+}
+
+# printing
+
+this.state.keyname
+
+# update
+
+calculator
+
+selector:nth-child(7)
+
+# Form-validation
+
+js
+dom
+
+const Dark={
+background:"black",
+color:"white,"
+
+}
+
+const light={
+background:"white",
+color:"black",
+}
+
+button onclick={Theme}
+
+const Theme=()=>{
+if(light)
+{
+this.setState({
+light:dark
+})
+}
+}
+
+# HOOKS
+
+hooks are nothing but functions
+
+1. hooks should always be declared at the top of function
+2. hooks will be used in functional component only
+3. hooks should be imported when we are using
+4. hooks can not be conditional
+5. hooks always in camelUppercase
+6. hooks can not be used directly
+
+useParams();
+
+7 types
+
+# statemanagement
+
+1. useState()
+2. useReducer()
+
+# API
+
+3. useEffect()
+
+# PropDrilling
+
+4. useContext()
+
+# DOM Manipulation
+
+5. useRef()
+
+# Memoization
+
+6. useCallBack()
+7. useMemo()
+
+if(condition)
+{
+statements
+}
+else
+{
+statements
+}
+
+# useState()
+
+state management
+
+(add/create/delete/read/perform all the operations)
+
+storing and printing
+
+const [variable,setVariable]=useState(initialState);
+
+variable === js variablle === print
+setVariable === update the state
+
+function componentname(){
+
+declaration of the hooks
+
+    return(<>
+
+    html
+
+    </>)
+
+}
+
+# useRef
+
+# useEffect
+
+api integration / side effect
+
+useEffect(function,dependency)
+
+async
+
+await
+
+# useReducer
+
+const[variable,dispatch]=useReducer(reducers,initialState);
+
+# useContext
+
+# useMemo
+
+# useCallBack
+
+# version controls
+
+push the code into the git hub
+
+deploy the project in netlify/vercel
+
+git software
+github cloud based application
+
+2005
+
+step1: install the git
+step2: configure the git bash with github details
+step3: initiate the git
