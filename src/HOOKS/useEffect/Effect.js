@@ -33,7 +33,7 @@ function Effect() {
   return (
     <>
       <button className="btn btn-primary" type="button" onClick={FetchData}>
-        Fetch Data
+        Get Data
       </button>
 
       <div className="container">
