@@ -16,6 +16,7 @@ import Count from "./HOOKS/useState/Count";
 import Reference from "./HOOKS/useRef/Reference";
 import Red from "./HOOKS/useReducers/Red";
 import Effect from "./HOOKS/useEffect/Effect";
+import Parent from "./HOOKS/useContext/Parent";
 
 function App() {
   let companyName = "ReactJS Swiggy";
@@ -50,6 +51,7 @@ function App() {
         <Route path="/ref" element={<Reference />} />
         <Route path="/red" element={<Red />} />
         <Route path="/eff" element={<Effect />} />
+        <Route path="/context" element={<Parent />} />
       </Routes>
     </div>
   );
