@@ -291,3 +291,11 @@ github cloud based application
 step1: install the git
 step2: configure the git bash with github details
 step3: initiate the git
+
+# useContext
+
+to get rid of the Prop Drilling
+
+step1: create the context
+step2: provide the context
+step3: use the context
