@@ -17,6 +17,7 @@ import Reference from "./HOOKS/useRef/Reference";
 import Red from "./HOOKS/useReducers/Red";
 import Effect from "./HOOKS/useEffect/Effect";
 import Parent from "./HOOKS/useContext/Parent";
+import Mem from "./HOOKS/useMemo/Mem";
 
 function App() {
   let companyName = "ReactJS Swiggy";
@@ -52,6 +53,7 @@ function App() {
         <Route path="/red" element={<Red />} />
         <Route path="/eff" element={<Effect />} />
         <Route path="/context" element={<Parent />} />
+        <Route path="/memo" element={<Mem />} />
       </Routes>
     </div>
   );

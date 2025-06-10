@@ -299,3 +299,31 @@ to get rid of the Prop Drilling
 step1: create the context
 step2: provide the context
 step3: use the context
+
+# useMemo
+
+"always returns the value"
+
+we use it for the purpose of memoization
+
+functions with parameters
+
+function addition(a,b)
+{
+document.write(a+b);//15
+}
+
+addition(8,10);//18
+
+addition(18,10);//28
+addition(28,10);//38
+
+addition(8,10);//18
+
+useMemo(function,dependency)
+
+# useCallback
+
+it returns the function
+
+useCallback(function,dependency)
