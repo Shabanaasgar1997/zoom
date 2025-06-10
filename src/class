@@ -327,3 +327,7 @@ useMemo(function,dependency)
 it returns the function
 
 useCallback(function,dependency)
+
+https://www.atlassian.com/git/tutorials/install-git#windows
+
+# CRUD

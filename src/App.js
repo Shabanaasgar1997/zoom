@@ -18,6 +18,7 @@ import Red from "./HOOKS/useReducers/Red";
 import Effect from "./HOOKS/useEffect/Effect";
 import Parent from "./HOOKS/useContext/Parent";
 import Mem from "./HOOKS/useMemo/Mem";
+import One from "./HOOKS/useCallback/One";
 
 function App() {
   let companyName = "ReactJS Swiggy";
@@ -54,6 +55,7 @@ function App() {
         <Route path="/eff" element={<Effect />} />
         <Route path="/context" element={<Parent />} />
         <Route path="/memo" element={<Mem />} />
+        <Route path="/call" element={<One />} />
       </Routes>
     </div>
   );
