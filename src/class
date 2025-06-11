@@ -331,3 +331,20 @@ useCallback(function,dependency)
 https://www.atlassian.com/git/tutorials/install-git#windows
 
 # CRUD
+useNavigate()--- REDIRECT FROM ONE PAGE TO THE ANOTHER PAGE
+
+CRUD
+axios --- library   https://axios-http.com/
+https request
+
+c-create-post
+r-read-get
+u-update-put
+d-delete-delete
+
+
+mockapi---storing the data
+
+
+json
+key:value, paired

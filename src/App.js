@@ -19,6 +19,9 @@ import Effect from "./HOOKS/useEffect/Effect";
 import Parent from "./HOOKS/useContext/Parent";
 import Mem from "./HOOKS/useMemo/Mem";
 import One from "./HOOKS/useCallback/One";
+import Create from "./CRUD/Create";
+import Read from "./CRUD/Read";
+import Update from "./CRUD/Update";
 
 function App() {
   let companyName = "ReactJS Swiggy";
@@ -29,35 +32,42 @@ function App() {
     alert("HEY U CLICKED");
   }
   return (
-    <div className="App">
-      <Navbar prp1="ZOMATO" prp2={80} prp3={true} />
-      {/* <Banner /> */}
+    <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home prop1={ClickMe} />} />
-        <Route path="/about" element={<About />} />
-        <Route
-          path="/services"
-          element={<Services props1="WELCOMEeeeeeeeeeeeeeee" props2="BACK" />}
-        />
-        <Route path="/state" element={<State />} />
-        <Route
-          path="/products"
-          element={<Products propp1={ProductDetails} />}
-        />
-        <Route path="/form" element={<Formvalidation />} />
-        <Route path="*" element={<PageNotFound />}>
-          <Route path=":virat" element={<PageNotFound />} />
-        </Route>
-        <Route path="/count" element={<Count />} />
-        <Route path="/ref" element={<Reference />} />
-        <Route path="/red" element={<Red />} />
-        <Route path="/eff" element={<Effect />} />
-        <Route path="/context" element={<Parent />} />
-        <Route path="/memo" element={<Mem />} />
-        <Route path="/call" element={<One />} />
+        <Route path="/" element={<Create />} />
+        <Route path="/read" element={<Read />} />
+        <Route path="/update" element={<Update />} />
       </Routes>
-    </div>
+    </>
+    // <div className="App">
+    //   <Navbar prp1="ZOMATO" prp2={80} prp3={true} />
+    //   {/* <Banner /> */}
+    //   <Routes>
+    //     <Route path="/" element={<Home />} />
+    //     <Route path="/home" element={<Home prop1={ClickMe} />} />
+    //     <Route path="/about" element={<About />} />
+    //     <Route
+    //       path="/services"
+    //       element={<Services props1="WELCOMEeeeeeeeeeeeeeee" props2="BACK" />}
+    //     />
+    //     <Route path="/state" element={<State />} />
+    //     <Route
+    //       path="/products"
+    //       element={<Products propp1={ProductDetails} />}
+    //     />
+    //     <Route path="/form" element={<Formvalidation />} />
+    //     <Route path="*" element={<PageNotFound />}>
+    //       <Route path=":virat" element={<PageNotFound />} />
+    //     </Route>
+    //     <Route path="/count" element={<Count />} />
+    //     <Route path="/ref" element={<Reference />} />
+    //     <Route path="/red" element={<Red />} />
+    //     <Route path="/eff" element={<Effect />} />
+    //     <Route path="/context" element={<Parent />} />
+    //     <Route path="/memo" element={<Mem />} />
+    //     <Route path="/call" element={<One />} />
+    //   </Routes>
+    // </div>
   );
 }
 
